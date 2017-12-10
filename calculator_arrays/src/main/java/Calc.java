@@ -1,7 +1,7 @@
 /**
  * @Author Alexander Panchenko
  * @see #main
- *
+ * FOR SHIT_BRANCH2
  **/
 
 import java.util.Scanner;
