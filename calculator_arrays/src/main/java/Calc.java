@@ -1,7 +1,7 @@
 /**
  * @Author Alexander Panchenko
  * @see #main
- *
+ *NEW_MASTER
  **/
 
 import java.util.Scanner;
