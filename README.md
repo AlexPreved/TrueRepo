@@ -1,1 +1,4 @@
-# TrueRepo
+## Intro
+
+* Creating Project
+* Starting project
