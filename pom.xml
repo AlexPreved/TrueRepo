@@ -12,6 +12,7 @@
         <module>calculator_arrays</module>
         <module>alena_base</module>
         <module>random_array</module>
+        <module>array_random</module>
     </modules>
 
     <properties>
