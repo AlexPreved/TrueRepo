@@ -26,16 +26,16 @@ public class Calc {
         switch (n) {
             //////////////////////
             case "1":
-                Scanner massiveInput = new Scanner(System.in);
+                Scanner arrayInput = new Scanner(System.in);
                 System.out.print("Скажи-ка, из скольки слов состоит твой массив? Введи цифру: ");
-                int sizeMassive = massiveInput.nextInt();
-                massiveInput.nextLine();                                                   // поглощение знака \n и ожидание новой строки
+                int sizeMassive = arrayInput.nextInt();
+                arrayInput.nextLine();                                                   // поглощение знака \n и ожидание новой строки
                 System.out.println();
 
                 String[] wordsMassive = new String[sizeMassive];
                 for (int i = 0; i < sizeMassive; i++) {
                     System.out.println("Введи " + (i + 1) + "-е слово и нажми Enter: ");
-                    wordsMassive[i] = massiveInput.next();
+                    wordsMassive[i] = arrayInput.next();
                 }
 
                 System.out.println("Тобой введены следующие слова:");
