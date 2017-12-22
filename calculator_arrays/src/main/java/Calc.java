@@ -21,7 +21,6 @@ public class Calc {
         String n = choose.nextLine();                                           // считывается знак выбора приложения
         // поглощение знака \n и ожидание новой строки
         System.out.println();
-//        if (n.equals("1")) {
 
         switch (n) {
             //////////////////////
